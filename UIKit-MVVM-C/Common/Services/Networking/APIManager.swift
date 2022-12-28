@@ -8,7 +8,6 @@
 import Foundation
 import Moya
 import Combine
-import CombineMoya
 
 class APIManager: APIManaging {
     let provider = MoyaProvider<MultiTarget>()
