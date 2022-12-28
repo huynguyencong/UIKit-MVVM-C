@@ -12,11 +12,6 @@
 		00ED0FFD2954BBBE004F9397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ED0FFC2954BBBE004F9397 /* Assets.xcassets */; };
 		00ED10002954BBBE004F9397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED0FFE2954BBBE004F9397 /* LaunchScreen.storyboard */; };
 		00ED100E2954BBE7004F9397 /* UIKit_MVVM_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED100D2954BBE7004F9397 /* UIKit_MVVM_CTests.swift */; };
-		00ED10192954BD2B004F9397 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 00ED10182954BD2B004F9397 /* Kingfisher */; };
-		00ED101C2954BD40004F9397 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 00ED101B2954BD40004F9397 /* CombineCocoa */; };
-		00ED101F2954BD50004F9397 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 00ED101E2954BD50004F9397 /* Swinject */; };
-		00ED10232954BDE1004F9397 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 00ED10222954BDE1004F9397 /* CombineMoya */; };
-		00ED10252954BDE1004F9397 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 00ED10242954BDE1004F9397 /* Moya */; };
 		00ED10512954C0F4004F9397 /* Container+ServiceRegistrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10342954C0F4004F9397 /* Container+ServiceRegistrations.swift */; };
 		00ED10522954C0F4004F9397 /* Container+Registrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10352954C0F4004F9397 /* Container+Registrations.swift */; };
 		00ED10532954C0F4004F9397 /* Container+ViewModelRestrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10362954C0F4004F9397 /* Container+ViewModelRestrations.swift */; };
@@ -111,11 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00ED101C2954BD40004F9397 /* CombineCocoa in Frameworks */,
-				00ED10192954BD2B004F9397 /* Kingfisher in Frameworks */,
-				00ED10232954BDE1004F9397 /* CombineMoya in Frameworks */,
-				00ED10252954BDE1004F9397 /* Moya in Frameworks */,
-				00ED101F2954BD50004F9397 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,11 +327,6 @@
 			);
 			name = "UIKit-MVVM-C";
 			packageProductDependencies = (
-				00ED10182954BD2B004F9397 /* Kingfisher */,
-				00ED101B2954BD40004F9397 /* CombineCocoa */,
-				00ED101E2954BD50004F9397 /* Swinject */,
-				00ED10222954BDE1004F9397 /* CombineMoya */,
-				00ED10242954BDE1004F9397 /* Moya */,
 			);
 			productName = "UIKit-MVVM-C";
 			productReference = 00ED0FF02954BBBD004F9397 /* UIKit-MVVM-C.app */;
@@ -394,10 +379,6 @@
 			);
 			mainGroup = 00ED0FE72954BBBC004F9397;
 			packageReferences = (
-				00ED10172954BD2B004F9397 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				00ED101A2954BD40004F9397 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
-				00ED101D2954BD50004F9397 /* XCRemoteSwiftPackageReference "Swinject" */,
-				00ED10212954BDE1004F9397 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = 00ED0FF12954BBBD004F9397 /* Products */;
 			projectDirPath = "";
@@ -746,69 +727,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		00ED10172954BD2B004F9397 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		00ED101A2954BD40004F9397 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		00ED101D2954BD50004F9397 /* XCRemoteSwiftPackageReference "Swinject" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Swinject/Swinject.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		00ED10212954BDE1004F9397 /* XCRemoteSwiftPackageReference "Moya" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		00ED10182954BD2B004F9397 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 00ED10172954BD2B004F9397 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		00ED101B2954BD40004F9397 /* CombineCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 00ED101A2954BD40004F9397 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
-			productName = CombineCocoa;
-		};
-		00ED101E2954BD50004F9397 /* Swinject */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 00ED101D2954BD50004F9397 /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = Swinject;
-		};
-		00ED10222954BDE1004F9397 /* CombineMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 00ED10212954BDE1004F9397 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = CombineMoya;
-		};
-		00ED10242954BDE1004F9397 /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 00ED10212954BDE1004F9397 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 00ED0FE82954BBBC004F9397 /* Project object */;
 }
