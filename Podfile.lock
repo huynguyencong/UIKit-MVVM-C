@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CombineCocoa (0.4.1)
+  - Kingfisher (7.4.1)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Swinject (2.8.2)
+
+DEPENDENCIES:
+  - CombineCocoa
+  - Kingfisher (~> 7.0)
+  - Moya/Combine (~> 15.0)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CombineCocoa
+    - Kingfisher
+    - Moya
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
+
+PODFILE CHECKSUM: ecdf7a11ec6ce8362a8b8267c1af2fa51906cd8c
+
+COCOAPODS: 1.11.3
