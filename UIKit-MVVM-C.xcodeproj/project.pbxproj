@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0039DDE52962752E00E676B5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039DDE42962752E00E676B5 /* Common.swift */; };
+		0039DDE729627DE400E676B5 /* SessionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039DDE629627DE400E676B5 /* SessionManagerTests.swift */; };
+		0039DDE929627F7C00E676B5 /* MockAuthenticationNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039DDE829627F7C00E676B5 /* MockAuthenticationNetworkService.swift */; };
+		004C25862961DE1400C938A7 /* MockStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C25852961DE1400C938A7 /* MockStoreService.swift */; };
+		00539673296087C50074C836 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00539672296087C50074C836 /* JSONLoader.swift */; };
+		005396752960883E0074C836 /* TestInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005396742960883E0074C836 /* TestInstances.swift */; };
+		00539678296088F20074C836 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 00539677296088F20074C836 /* User.json */; };
+		0053967B296089430074C836 /* SignInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053967A296089430074C836 /* SignInViewModelTests.swift */; };
+		0053967E296089CA0074C836 /* MockSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053967D296089CA0074C836 /* MockSessionManager.swift */; };
+		00539680296090810074C836 /* ArticlesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053967F296090810074C836 /* ArticlesViewModelTests.swift */; };
+		00539682296090B20074C836 /* Articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 00539681296090B20074C836 /* Articles.json */; };
 		00ED0FF42954BBBD004F9397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED0FF32954BBBD004F9397 /* AppDelegate.swift */; };
 		00ED0FF62954BBBD004F9397 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED0FF52954BBBD004F9397 /* SceneDelegate.swift */; };
 		00ED0FFD2954BBBE004F9397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ED0FFC2954BBBE004F9397 /* Assets.xcassets */; };
 		00ED10002954BBBE004F9397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED0FFE2954BBBE004F9397 /* LaunchScreen.storyboard */; };
-		00ED100E2954BBE7004F9397 /* UIKit_MVVM_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED100D2954BBE7004F9397 /* UIKit_MVVM_CTests.swift */; };
 		00ED10512954C0F4004F9397 /* Container+ServiceRegistrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10342954C0F4004F9397 /* Container+ServiceRegistrations.swift */; };
 		00ED10522954C0F4004F9397 /* Container+Registrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10352954C0F4004F9397 /* Container+Registrations.swift */; };
 		00ED10532954C0F4004F9397 /* Container+ViewModelRestrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED10362954C0F4004F9397 /* Container+ViewModelRestrations.swift */; };
@@ -60,6 +70,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0039DDE42962752E00E676B5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0039DDE629627DE400E676B5 /* SessionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerTests.swift; sourceTree = "<group>"; };
+		0039DDE829627F7C00E676B5 /* MockAuthenticationNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationNetworkService.swift; sourceTree = "<group>"; };
+		004C25852961DE1400C938A7 /* MockStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreService.swift; sourceTree = "<group>"; };
+		00539672296087C50074C836 /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		005396742960883E0074C836 /* TestInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInstances.swift; sourceTree = "<group>"; };
+		00539677296088F20074C836 /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		0053967A296089430074C836 /* SignInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelTests.swift; sourceTree = "<group>"; };
+		0053967D296089CA0074C836 /* MockSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSessionManager.swift; sourceTree = "<group>"; };
+		0053967F296090810074C836 /* ArticlesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModelTests.swift; sourceTree = "<group>"; };
+		00539681296090B20074C836 /* Articles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Articles.json; sourceTree = "<group>"; };
 		00ED0FF02954BBBD004F9397 /* UIKit-MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ED0FF32954BBBD004F9397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00ED0FF52954BBBD004F9397 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +88,6 @@
 		00ED0FFF2954BBBE004F9397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00ED10012954BBBE004F9397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00ED100B2954BBE7004F9397 /* UIKit-MVVM-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit-MVVM-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00ED100D2954BBE7004F9397 /* UIKit_MVVM_CTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_MVVM_CTests.swift; sourceTree = "<group>"; };
 		00ED10342954C0F4004F9397 /* Container+ServiceRegistrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+ServiceRegistrations.swift"; sourceTree = "<group>"; };
 		00ED10352954C0F4004F9397 /* Container+Registrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Registrations.swift"; sourceTree = "<group>"; };
 		00ED10362954C0F4004F9397 /* Container+ViewModelRestrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+ViewModelRestrations.swift"; sourceTree = "<group>"; };
@@ -129,6 +149,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00539671296087B50074C836 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				00539672296087C50074C836 /* JSONLoader.swift */,
+				005396742960883E0074C836 /* TestInstances.swift */,
+				0039DDE42962752E00E676B5 /* Common.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		00539676296088DC0074C836 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				00539677296088F20074C836 /* User.json */,
+				00539681296090B20074C836 /* Articles.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		00539679296089330074C836 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0053967A296089430074C836 /* SignInViewModelTests.swift */,
+				0053967F296090810074C836 /* ArticlesViewModelTests.swift */,
+				0039DDE629627DE400E676B5 /* SessionManagerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0053967C296089AF0074C836 /* MockObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0053967D296089CA0074C836 /* MockSessionManager.swift */,
+				004C25852961DE1400C938A7 /* MockStoreService.swift */,
+				0039DDE829627F7C00E676B5 /* MockAuthenticationNetworkService.swift */,
+			);
+			path = MockObjects;
+			sourceTree = "<group>";
+		};
 		00ED0FE72954BBBC004F9397 = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +227,10 @@
 		00ED100C2954BBE7004F9397 /* UIKit-MVVM-CTests */ = {
 			isa = PBXGroup;
 			children = (
-				00ED100D2954BBE7004F9397 /* UIKit_MVVM_CTests.swift */,
+				00539679296089330074C836 /* Tests */,
+				00539676296088DC0074C836 /* MockData */,
+				0053967C296089AF0074C836 /* MockObjects */,
+				00539671296087B50074C836 /* Utils */,
 			);
 			path = "UIKit-MVVM-CTests";
 			sourceTree = "<group>";
@@ -330,7 +392,6 @@
 				CC1092B1053125ED8CA06FB4 /* Pods-UIKit-MVVM-CTests.debug.xcconfig */,
 				4500DCFBB267938919DE9EE7 /* Pods-UIKit-MVVM-CTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -438,6 +499,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00539682296090B20074C836 /* Articles.json in Resources */,
+				00539678296088F20074C836 /* User.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +615,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00ED100E2954BBE7004F9397 /* UIKit_MVVM_CTests.swift in Sources */,
+				0053967B296089430074C836 /* SignInViewModelTests.swift in Sources */,
+				00539673296087C50074C836 /* JSONLoader.swift in Sources */,
+				005396752960883E0074C836 /* TestInstances.swift in Sources */,
+				004C25862961DE1400C938A7 /* MockStoreService.swift in Sources */,
+				0053967E296089CA0074C836 /* MockSessionManager.swift in Sources */,
+				00539680296090810074C836 /* ArticlesViewModelTests.swift in Sources */,
+				0039DDE729627DE400E676B5 /* SessionManagerTests.swift in Sources */,
+				0039DDE929627F7C00E676B5 /* MockAuthenticationNetworkService.swift in Sources */,
+				0039DDE52962752E00E676B5 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

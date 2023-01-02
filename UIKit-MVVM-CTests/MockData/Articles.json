@@ -1,0 +1,34 @@
+{
+ "articles": [
+     {
+        "id": "1",
+        "title": "Apple killing Dark Sky in two weeks, don’t get caught in the rain with these alternatives",
+        "imageURL": "https://9to5mac.com/wp-content/uploads/sites/6/2021/06/weather-app-header.jpg"
+     },
+     {
+        "id": "2",
+        "title": "Apple reportedly prepping ‘multiple new external monitors’ with Apple Silicon inside",
+        "imageURL": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/01/Pro-Display-XDR.jpg?w=2500&quality=82&strip=all&ssl=1"
+     },
+     {
+        "id": "3",
+        "title": "Gurman: Apple cancels plans for high-end ‘M2 Extreme’ chip, but new Mac Pro will retain expandability options for RAM and storage",
+        "imageURL": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/10/new-mac-pro.jpg?w=2500&quality=82&strip=all&ssl=1"
+     },
+     {
+        "id": "4",
+        "title": "AirPods Max 2, AirPods 4, and AirPods Pro 3: Here are the latest rumors on when to expect them",
+        "imageURL": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/11/AirPods-Pro-microphone.jpg?w=2500&quality=82&strip=all&ssl=1"
+     },
+     {
+        "id": "5",
+        "title": "Pixelmator Pro update adds new ‘Deband’ feature to remove color banding from photos",
+        "imageURL": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/12/Pixelmator-Pro.jpg?w=2500&quality=82&strip=all&ssl=1"
+     },
+     {
+        "id": "6",
+        "title": "These people should never be allowed near a white HomePod again",
+        "imageURL": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2018/11/homepod-white.jpg?w=2500&quality=82&strip=all&ssl=1"
+     }
+  ]
+}
