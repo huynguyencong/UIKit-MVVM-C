@@ -277,10 +277,10 @@
 		00ED10402954C0F4004F9397 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				00ED10412954C0F4004F9397 /* SessionManaging.swift */,
-				00ED10422954C0F4004F9397 /* StoreServicing.swift */,
 				00ED10432954C0F4004F9397 /* Networking */,
+				00ED10412954C0F4004F9397 /* SessionManaging.swift */,
 				00ED104F2954C0F4004F9397 /* SessionManager.swift */,
+				00ED10422954C0F4004F9397 /* StoreServicing.swift */,
 				00ED10502954C0F4004F9397 /* StoreService.swift */,
 			);
 			path = Services;
