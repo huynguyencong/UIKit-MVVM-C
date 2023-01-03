@@ -73,17 +73,14 @@ class ArticlesViewController: UIViewController, ViewModelContainer {
         let itemSize1 = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(200))
         let item1 = NSCollectionLayoutItem(layoutSize: itemSize1)
         
-        let groupSize1 = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(200))
-        let group1 = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize1, subitems: [item1])
-        
-        let itemSize2 = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(200))
+        let itemSize2 = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1/2), heightDimension: .estimated(200))
         let item2 = NSCollectionLayoutItem(layoutSize: itemSize2)
         
-        let group2Size = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1/2), heightDimension: .estimated(200))
-        let group2 = NSCollectionLayoutGroup.horizontal(layoutSize: group2Size, repeatingSubitem: item2, count: 2)
+        let group2Size = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(200))
+        let group2  = NSCollectionLayoutGroup.horizontal(layoutSize: group2Size, subitems: [item2, item2])
         
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(400))
-        let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: [group1, group2])
+        let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: [item1, group2])
         
         let section = NSCollectionLayoutSection(group: group)
         
