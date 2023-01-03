@@ -3,6 +3,12 @@ A MVVM-C demo project that uses UIKit for UI, Combine for event handling, MVVM-C
 
 This is a demo project that shows some techniques that I normally use in my projects. They are MVVM-C software architecture, Combine and unit test.
 
+If you are using SwiftUI, this is SwiftUI version: https://github.com/huynguyencong/SwiftUI-MVVM-C
+
+## Demo screen record
+
+![Demo](Images/demo.gif)
+
 ## Compatibility
 - iOS 15 and later
 - Swift 5 and later
