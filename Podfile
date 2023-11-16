@@ -8,7 +8,7 @@ target 'UIKit-MVVM-C' do
   pod 'Moya/Combine', '~> 15.0'
   pod 'CombineCocoa'
   pod 'Swinject'
-  pod 'Kingfisher', '~> 7.0'
+  pod 'Kingfisher', '~> 7.6.2'
 
   target 'UIKit-MVVM-CTests' do
     inherit! :search_paths
